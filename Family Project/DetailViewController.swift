@@ -7,9 +7,9 @@
 
 import UIKit
 
-class FamilyDetailViewController: UIViewController {
+class DetailViewController: UIViewController {
 
-    var familyMember = FamilyMember(name: "", job: "", interests: [""])
+    var familyMember = FamilyMember(name: "", job: "", interests: [""], imageName: "")
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var profileImageView: UIImageView!

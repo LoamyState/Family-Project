@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FamilyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let familyDetailViewController = segue.destination as? FamilyDetailViewController else {return}
+        guard let familyDetailViewController = segue.destination as? DetailViewController else {return}
         
         familyDetailViewController.familyMember = selectedMember ?? ivy
     }
