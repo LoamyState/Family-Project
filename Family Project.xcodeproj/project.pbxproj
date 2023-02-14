@@ -14,6 +14,7 @@
 		E5272F0C299A8F42007AF405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5272F0B299A8F42007AF405 /* Assets.xcassets */; };
 		E5272F0F299A8F42007AF405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5272F0D299A8F42007AF405 /* LaunchScreen.storyboard */; };
 		E5272F17299A92CA007AF405 /* FamilyMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5272F16299A92CA007AF405 /* FamilyMember.swift */; };
+		E5272F19299A96B9007AF405 /* FamilyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5272F18299A96B9007AF405 /* FamilyDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E5272F0E299A8F42007AF405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5272F10299A8F42007AF405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5272F16299A92CA007AF405 /* FamilyMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyMember.swift; sourceTree = "<group>"; };
+		E5272F18299A96B9007AF405 /* FamilyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				E5272F04299A8F40007AF405 /* SceneDelegate.swift */,
 				E5272F06299A8F40007AF405 /* ViewController.swift */,
 				E5272F08299A8F40007AF405 /* Main.storyboard */,
+				E5272F18299A96B9007AF405 /* FamilyDetailViewController.swift */,
 				E5272F16299A92CA007AF405 /* FamilyMember.swift */,
 				E5272F0B299A8F42007AF405 /* Assets.xcassets */,
 				E5272F0D299A8F42007AF405 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				E5272F07299A8F40007AF405 /* ViewController.swift in Sources */,
 				E5272F03299A8F40007AF405 /* AppDelegate.swift in Sources */,
+				E5272F19299A96B9007AF405 /* FamilyDetailViewController.swift in Sources */,
 				E5272F05299A8F40007AF405 /* SceneDelegate.swift in Sources */,
 				E5272F17299A92CA007AF405 /* FamilyMember.swift in Sources */,
 			);

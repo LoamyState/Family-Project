@@ -16,64 +16,88 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="B4e-4i-6Ua">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="B4e-4i-6Ua">
+                                <rect key="frame" x="15" y="103" width="363" height="715"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBH-Fd-dp9">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="89.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="363" height="76.333333333333329"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👵🏻 Ivy">
-                                            <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="👵🏻 Ivy">
+                                            <fontDescription key="titleFontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="34"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showIvy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xya-ol-hq3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVw-Xo-WU6">
-                                        <rect key="frame" x="0.0" y="89.333333333333343" width="393" height="89.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="91.333333333333343" width="363" height="76.333333333333343"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👴🏻 Ronald">
+                                        <buttonConfiguration key="configuration" style="filled" title="👴🏻 Ronald">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showRon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u7A-R8-Fek"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGl-xn-x4C">
-                                        <rect key="frame" x="0.0" y="178.66666666666669" width="393" height="89.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="182.66666666666669" width="363" height="76"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👨🏻‍💻 Andrew">
+                                        <buttonConfiguration key="configuration" style="filled" title="👨🏻‍💻 Andrew">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showAndrew:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hR8-7w-31P"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93o-x2-j3p">
-                                        <rect key="frame" x="0.0" y="268" width="393" height="89.666666666666686"/>
+                                        <rect key="frame" x="0.0" y="273.66666666666669" width="363" height="76.333333333333314"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="🧗🏻‍♂️ Chris">
+                                        <buttonConfiguration key="configuration" style="filled" title="🧗🏻‍♂️ Chris">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showChris:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7pR-jR-M2i"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-q2-SFA">
-                                        <rect key="frame" x="0.0" y="357.66666666666669" width="393" height="89.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="365" width="363" height="76.333333333333314"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👨🏻‍💼 Kenneth">
+                                        <buttonConfiguration key="configuration" style="filled" title="👨🏻‍💼 Kenneth">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showKenneth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOX-7j-gxL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQw-au-1n0">
-                                        <rect key="frame" x="0.0" y="447" width="393" height="89.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="456.33333333333337" width="363" height="76.333333333333371"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="🤷🏻 Jane">
+                                        <buttonConfiguration key="configuration" style="filled" title="🤷🏻 Jane">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showJane:" destination="BYZ-38-t0r" eventType="touchUpInside" id="It3-ii-opi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvq-s9-ggY">
-                                        <rect key="frame" x="0.0" y="536.33333333333337" width="393" height="89.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="547.66666666666663" width="363" height="76"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👨🏻‍🔬 Aaron">
+                                        <buttonConfiguration key="configuration" style="filled" title="👨🏻‍🔬 Aaron">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showAaron:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deP-MT-NHe"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7a-Ig-urn">
-                                        <rect key="frame" x="0.0" y="625.66666666666663" width="393" height="89.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="638.66666666666663" width="363" height="76.333333333333371"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="👩🏻‍💻 Anna">
+                                        <buttonConfiguration key="configuration" style="filled" title="👩🏻‍💻 Anna">
                                             <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="showAnna:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGu-sg-xQO"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -81,17 +105,107 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="B4e-4i-6Ua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="c76-8M-6W0"/>
-                            <constraint firstItem="B4e-4i-6Ua" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="g7n-XP-CL0"/>
+                            <constraint firstItem="B4e-4i-6Ua" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="c76-8M-6W0"/>
+                            <constraint firstItem="B4e-4i-6Ua" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-15" id="g7n-XP-CL0"/>
                             <constraint firstItem="B4e-4i-6Ua" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="h3D-Zp-3Ax"/>
                             <constraint firstItem="B4e-4i-6Ua" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hph-dr-RlY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="The Madsen Fam" id="s9f-hP-OjZ"/>
+                    <connections>
+                        <segue destination="agR-hL-pAv" kind="showDetail" identifier="familyDetail" id="NfQ-9N-KNQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="988.54961832061065" y="3.5211267605633805"/>
+        </scene>
+        <!--Family Detail View Controller-->
+        <scene sceneID="qn1-IR-E9P">
+            <objects>
+                <viewController id="agR-hL-pAv" customClass="FamilyDetailViewController" customModule="Family_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HGn-Mg-deX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="kas-yS-nd0" userLabel="Profile Stack">
+                                <rect key="frame" x="16" y="75" width="361" height="512"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGh-hT-pOe">
+                                        <rect key="frame" x="135.66666666666666" y="0.0" width="89.666666666666657" height="43.666666666666664"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemGray5Color"/>
+                                        <size key="shadowOffset" width="3" height="3"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GVI-39-s06">
+                                        <rect key="frame" x="0.0" y="59.666666666666657" width="361" height="315"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="GVI-39-s06" secondAttribute="height" multiplier="361:315" id="Dih-5G-jPh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nNQ-nM-JSO" userLabel="Divider">
+                                        <rect key="frame" x="0.0" y="390.66666666666669" width="361" height="2"/>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="O7g-fz-y5z"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NCG-oV-Aqc">
+                                        <rect key="frame" x="154" y="408.66666666666669" width="53" height="34.666666666666686"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemGray5Color"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MPn-xA-bjM" userLabel="Divider">
+                                        <rect key="frame" x="0.0" y="459.33333333333337" width="361" height="2"/>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="gPi-L7-ZHG"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interests:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t46-4K-CW1">
+                                        <rect key="frame" x="0.0" y="477.33333333333337" width="361" height="34.666666666666629"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="systemGray5Color"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="t46-4K-CW1" secondAttribute="trailing" id="7Wf-Eo-GYJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="nNQ-nM-JSO" secondAttribute="trailing" id="D05-9C-XgF"/>
+                                    <constraint firstItem="nNQ-nM-JSO" firstAttribute="leading" secondItem="kas-yS-nd0" secondAttribute="leading" id="FWm-qp-k2q"/>
+                                    <constraint firstItem="t46-4K-CW1" firstAttribute="leading" secondItem="kas-yS-nd0" secondAttribute="leading" id="JO5-lV-mlN"/>
+                                    <constraint firstItem="MPn-xA-bjM" firstAttribute="leading" secondItem="kas-yS-nd0" secondAttribute="leading" id="TCU-gr-rFT"/>
+                                    <constraint firstAttribute="trailing" secondItem="MPn-xA-bjM" secondAttribute="trailing" id="ncC-AR-Y5w"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vaQ-kE-1mZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kas-yS-nd0" firstAttribute="top" secondItem="vaQ-kE-1mZ" secondAttribute="top" constant="16" id="5fo-H9-deK"/>
+                            <constraint firstItem="vaQ-kE-1mZ" firstAttribute="trailing" secondItem="kas-yS-nd0" secondAttribute="trailing" constant="16" id="iud-Of-Jyb"/>
+                            <constraint firstItem="kas-yS-nd0" firstAttribute="leading" secondItem="vaQ-kE-1mZ" secondAttribute="leading" constant="16" id="pS5-04-9Bj"/>
+                            <constraint firstItem="kas-yS-nd0" firstAttribute="centerX" secondItem="HGn-Mg-deX" secondAttribute="centerX" id="zkV-CN-7nq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="divider" destination="MPn-xA-bjM" id="RXr-ph-IE5"/>
+                        <outlet property="interestsLabel" destination="t46-4K-CW1" id="FJd-fm-y6B"/>
+                        <outlet property="jobLabel" destination="NCG-oV-Aqc" id="Iwl-tw-J8x"/>
+                        <outlet property="nameLabel" destination="iGh-hT-pOe" id="YnV-CF-m98"/>
+                        <outlet property="profileImageView" destination="GVI-39-s06" id="PRf-8R-2cb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HZe-LT-bSq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1907.6335877862596" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qk8-8U-L6y">
@@ -115,6 +229,12 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
